@@ -4,19 +4,23 @@ const inquirer = require("inquirer");
 const questions = [
   {
     type: "input",
-    name: "project",
+    name: "github",
+    message: "What is your github?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email?",
+  },
+  {
+    type: "input",
+    name: "title",
     message: "What is the project's name?",
   },
   {
     type: "input",
     name: "description",
     message: "What is the description of your project?",
-  },
-  {
-    type: "list",
-    name: "license",
-    message: "What license does your project have?",
-    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
   },
   {
     type: "input",
@@ -29,19 +33,28 @@ const questions = [
     message: "What does the user need to know about this repo?",
   },
   {
+    type: "list",
+    name: "license",
+    message: "What license does your project have?",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+  },
+  {
     type: "input",
     name: "contributing",
     message: "What does the user need to know before contributing?",
   },
+  {
+    type: "input",
+    name: "tests",
+    message: "How do you run a test?",
+  },
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFileSync(README.md, data)
-}
+function writeToFile(fileName, data)
 
 // function to initialize program
-function init() {}
+function init()
 
 // function call to initialize program
 init();
