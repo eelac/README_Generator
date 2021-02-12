@@ -1,4 +1,6 @@
 // array of questions for user
+const fs = require("fs");
+const inquirer = require("inquirer");
 const questions = [
   {
     type: "input",
@@ -14,6 +16,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What license does your project have?",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
   },
   {
     type: "input",
@@ -33,7 +36,9 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(README.md, data)
+}
 
 // function to initialize program
 function init() {}
