@@ -1,6 +1,6 @@
-# asfd
+# README Generator
 ## Description
-asdf
+To generate a professional readme file
 
 ## Table of Contents
   1. [Installation](#installation)
@@ -11,20 +11,20 @@ asdf
   6. [Questions](#questions)
 
 ## Installation
-  1. To install the necessary npm's, run the following command: sadf
+  1. To install the necessary npm's, run the following command: npm i
 
 ## Usage
-  1. asdf
+  1. Nothing
 
 ## License
   1. This project is licensed under the MIT license.
 
 ## Contributing
-  1. 
+  1. Nothing
 
 ## Tests
-  1. To run tests, run: 
+  1. To run tests, run: npm test
 
 ## Questions
-  If you have any questions about the repo, contact me at asdf.
-  You can find my work at [asdf](https://github.com/asdf/).
+  If you have any questions about the repo, contact me at lacelton@yahoo.com.
+  You can find my work at [eelac](https://github.com/eelac/).
